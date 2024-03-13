@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Ensure the body takes full width */
+    height: 100%; /* Ensure the body takes full height */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    width: 100%;
+    background-color: black;
+    padding: 0 20px;
+    font-family: sans-serif ;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    margin-left: 3em;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 2em; /* Adjust the spacing between links as needed */
+    font-size: 15px;
+}
+
+
+.center {
+
+    justify-content: center;
+}
+.nav-link-center {
+    color: white;
+    text-decoration: none;
+    margin: 7em; /* Adjust the spacing between links as needed */
+    font-size: 22px;
+} 
+
+.nav-link:hover {
+    color: #CFB69F;
+}
+
+.nav-link-center:hover {
+    color: #CFB69F;
+} 
+
+
+.social-media img, .right img {
+    height: 25px;
+    width: 25px;
+}
+
+.right {
+    margin-right: 7em;
+}
+
+.right img {
+    margin-right: 2em;
+}
+
+
+
+
+.below-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-image img {
+    max-width: 100%; /* Ensures the image is responsive and doesn't overflow its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+
+
+
+
+
